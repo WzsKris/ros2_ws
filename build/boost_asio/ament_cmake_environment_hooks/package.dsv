@@ -1,0 +1,4 @@
+source;share/boost_asio/local_setup.bash
+source;share/boost_asio/local_setup.dsv
+source;share/boost_asio/local_setup.sh
+source;share/boost_asio/local_setup.zsh

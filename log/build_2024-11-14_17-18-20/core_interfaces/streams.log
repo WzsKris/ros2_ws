@@ -1,0 +1,148 @@
+[0.008s] Invoking command in '/home/virtualkris2/ros2_ws/build/core_interfaces': CMAKE_PREFIX_PATH=/home/virtualkris2/ros2_ws/install/boost_asio:/opt/ros/humble:/home/virtualkris2/ros2_ws/install/tripod7:/home/virtualkris2/ros2_ws/install/three_legged_bot:/home/virtualkris2/ros2_ws/install/core_interfaces /usr/bin/cmake --build /home/virtualkris2/ros2_ws/build/core_interfaces -- -j24 -l24
+[0.024s] [  3%] Built target core_interfaces__cpp
+[0.027s] [ 12%] Built target core_interfaces__rosidl_generator_c
+[0.029s] [ 12%] Built target ament_cmake_python_copy_core_interfaces
+[0.033s] [ 22%] Built target core_interfaces__rosidl_typesupport_cpp
+[0.035s] [ 32%] Built target core_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.035s] [ 41%] Built target core_interfaces__rosidl_typesupport_introspection_cpp
+[0.036s] [ 51%] Built target core_interfaces__rosidl_typesupport_fastrtps_c
+[0.037s] [ 61%] Built target core_interfaces__rosidl_typesupport_c
+[0.038s] [ 70%] Built target core_interfaces__rosidl_typesupport_introspection_c
+[0.045s] [ 70%] Built target core_interfaces
+[0.052s] [ 74%] Built target core_interfaces__py
+[0.061s] [ 80%] Built target core_interfaces__rosidl_generator_py
+[0.069s] [ 87%] Built target core_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.069s] [ 93%] Built target core_interfaces__rosidl_typesupport_c__pyext
+[0.069s] [100%] Built target core_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.120s] running egg_info
+[0.121s] writing core_interfaces.egg-info/PKG-INFO
+[0.121s] writing dependency_links to core_interfaces.egg-info/dependency_links.txt
+[0.121s] writing top-level names to core_interfaces.egg-info/top_level.txt
+[0.122s] reading manifest file 'core_interfaces.egg-info/SOURCES.txt'
+[0.122s] writing manifest file 'core_interfaces.egg-info/SOURCES.txt'
+[0.132s] [100%] Built target ament_cmake_python_build_core_interfaces_egg
+[0.137s] Invoked command in '/home/virtualkris2/ros2_ws/build/core_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/virtualkris2/ros2_ws/install/boost_asio:/opt/ros/humble:/home/virtualkris2/ros2_ws/install/tripod7:/home/virtualkris2/ros2_ws/install/three_legged_bot:/home/virtualkris2/ros2_ws/install/core_interfaces /usr/bin/cmake --build /home/virtualkris2/ros2_ws/build/core_interfaces -- -j24 -l24
+[0.158s] Invoking command in '/home/virtualkris2/ros2_ws/build/core_interfaces': CMAKE_PREFIX_PATH=/home/virtualkris2/ros2_ws/install/boost_asio:/opt/ros/humble:/home/virtualkris2/ros2_ws/install/tripod7:/home/virtualkris2/ros2_ws/install/three_legged_bot:/home/virtualkris2/ros2_ws/install/core_interfaces /usr/bin/cmake --install /home/virtualkris2/ros2_ws/build/core_interfaces
+[0.161s] -- Install configuration: ""
+[0.161s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/ament_index/resource_index/rosidl_interfaces/core_interfaces
+[0.161s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces
+[0.161s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/msg
+[0.161s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.161s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv
+[0.161s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail
+[0.161s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__functions.h
+[0.161s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__functions.c
+[0.161s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__struct.h
+[0.162s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__type_support.h
+[0.162s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/ui_motor.h
+[0.162s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/environment/library_path.sh
+[0.162s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/environment/library_path.dsv
+[0.162s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_generator_c.so
+[0.162s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces
+[0.162s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/msg
+[0.162s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.162s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv
+[0.162s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail
+[0.162s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__rosidl_typesupport_fastrtps_c.h
+[0.162s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.162s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces
+[0.162s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/msg
+[0.163s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.163s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv
+[0.163s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail
+[0.163s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__type_support.c
+[0.163s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__rosidl_typesupport_introspection_c.h
+[0.163s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_introspection_c.so
+[0.163s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_c.so
+[0.163s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces
+[0.163s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv
+[0.163s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail
+[0.163s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__struct.hpp
+[0.163s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__builder.hpp
+[0.163s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__traits.hpp
+[0.163s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/ui_motor.hpp
+[0.163s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/msg
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__rosidl_typesupport_fastrtps_cpp.hpp
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/dds_fastrtps
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__rosidl_typesupport_introspection_cpp.hpp
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__type_support.cpp
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_cpp.so
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/environment/pythonpath.sh
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/environment/pythonpath.dsv
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces-0.0.0-py3.10.egg-info
+[0.164s] -- Installing: /home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.164s] -- Installing: /home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.164s] -- Installing: /home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.164s] -- Installing: /home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/_core_interfaces_s.ep.rosidl_typesupport_c.c
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/__init__.py
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/core_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/_core_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/_core_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/core_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/srv
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/srv/__init__.py
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/srv/_ui_motor.py
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/srv/_ui_motor_s.c
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/core_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.164s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/libcore_interfaces__rosidl_generator_py.so
+[0.176s] Listing '/home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces'...
+[0.176s] Listing '/home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/srv'...
+[0.178s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/core_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.178s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/core_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.178s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/core_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.178s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_generator_py.so
+[0.178s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/srv/UiMotor.idl
+[0.178s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/srv/UiMotor.srv
+[0.179s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/srv/UiMotor_Request.msg
+[0.179s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/srv/UiMotor_Response.msg
+[0.179s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/ament_index/resource_index/package_run_dependencies/core_interfaces
+[0.179s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/ament_index/resource_index/parent_prefix_path/core_interfaces
+[0.179s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/environment/ament_prefix_path.sh
+[0.179s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/environment/ament_prefix_path.dsv
+[0.179s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/environment/path.sh
+[0.179s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/environment/path.dsv
+[0.179s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/local_setup.bash
+[0.179s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/local_setup.sh
+[0.179s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/local_setup.zsh
+[0.179s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/local_setup.dsv
+[0.179s] -- Installing: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/package.dsv
+[0.179s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/ament_index/resource_index/packages/core_interfaces
+[0.179s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_generator_cExport.cmake
+[0.179s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.179s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.180s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.180s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.180s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.180s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfaces__rosidl_typesupport_cExport.cmake
+[0.180s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.180s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_generator_cppExport.cmake
+[0.180s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.180s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.180s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.180s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.180s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfaces__rosidl_typesupport_cppExport.cmake
+[0.180s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.180s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_generator_pyExport.cmake
+[0.180s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.180s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.180s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.180s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.180s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.180s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.180s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.180s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.180s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfacesConfig.cmake
+[0.180s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfacesConfig-version.cmake
+[0.180s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/core_interfaces/share/core_interfaces/package.xml
+[0.181s] Invoked command in '/home/virtualkris2/ros2_ws/build/core_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/virtualkris2/ros2_ws/install/boost_asio:/opt/ros/humble:/home/virtualkris2/ros2_ws/install/tripod7:/home/virtualkris2/ros2_ws/install/three_legged_bot:/home/virtualkris2/ros2_ws/install/core_interfaces /usr/bin/cmake --install /home/virtualkris2/ros2_ws/build/core_interfaces

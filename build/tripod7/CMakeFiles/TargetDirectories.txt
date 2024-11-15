@@ -1,0 +1,9 @@
+/home/virtualkris2/ros2_ws/build/tripod7/CMakeFiles/uninstall.dir
+/home/virtualkris2/ros2_ws/build/tripod7/CMakeFiles/tripod7_uninstall.dir
+/home/virtualkris2/ros2_ws/build/tripod7/CMakeFiles/test.dir
+/home/virtualkris2/ros2_ws/build/tripod7/CMakeFiles/edit_cache.dir
+/home/virtualkris2/ros2_ws/build/tripod7/CMakeFiles/rebuild_cache.dir
+/home/virtualkris2/ros2_ws/build/tripod7/CMakeFiles/list_install_components.dir
+/home/virtualkris2/ros2_ws/build/tripod7/CMakeFiles/install.dir
+/home/virtualkris2/ros2_ws/build/tripod7/CMakeFiles/install/local.dir
+/home/virtualkris2/ros2_ws/build/tripod7/CMakeFiles/install/strip.dir

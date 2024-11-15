@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.000150] (core_interfaces) JobQueued: {'identifier': 'core_interfaces', 'dependencies': OrderedDict()}
+[0.000164] (tripod7) JobQueued: {'identifier': 'tripod7', 'dependencies': OrderedDict()}
+[0.000173] (three_legged_bot) JobQueued: {'identifier': 'three_legged_bot', 'dependencies': OrderedDict([('core_interfaces', '/home/virtualkris2/ros2_ws/install/core_interfaces')])}
+[0.000181] (core_interfaces) JobStarted: {'identifier': 'core_interfaces'}
+[0.006724] (tripod7) JobStarted: {'identifier': 'tripod7'}
+[0.009009] (core_interfaces) JobProgress: {'identifier': 'core_interfaces', 'progress': 'cmake'}
+[0.009176] (core_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/virtualkris2/ros2_ws/src/core_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/virtualkris2/ros2_ws/install/core_interfaces'], 'cwd': '/home/virtualkris2/ros2_ws/build/core_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'virtualkris2'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/virtualkris2'), ('OLDPWD', '/home/virtualkris2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/virtualkris2/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'virtualkris2'), ('NAME', 'ETID-7016799350'), ('WSL_INTEROP', '/run/WSL/345_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/home/virtualkris2/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/virtualkris2/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10018.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2023A/runtime/win64:/mnt/c/Program Files/MATLAB/R2023A/bin:/mnt/c/Program Files/MiKTeX/miktex/bin/x64/:/mnt/c/Users/kriswang/AppData/Local/Microsoft/WindowsApps:/snap/bin:/home/virtualkris2/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/virtualkris2/ros2_ws/install/tripod7:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/virtualkris2/ros2_ws/build/core_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/home/virtualkris2/ros2_ws/install/tripod7'), ('WSLENV', '')]), 'shell': False}
+[0.011561] (tripod7) JobProgress: {'identifier': 'tripod7', 'progress': 'cmake'}
+[0.012693] (tripod7) Command: {'cmd': ['/usr/bin/cmake', '/home/virtualkris2/ros2_ws/src/tripod7', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/virtualkris2/ros2_ws/install/tripod7'], 'cwd': '/home/virtualkris2/ros2_ws/build/tripod7', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'virtualkris2'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/virtualkris2'), ('OLDPWD', '/home/virtualkris2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/virtualkris2/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'virtualkris2'), ('NAME', 'ETID-7016799350'), ('WSL_INTEROP', '/run/WSL/345_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/home/virtualkris2/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/virtualkris2/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu22.04LTS_2204.5.10018.0_x64__79rhkp1fndgsc:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/MATLAB/R2023A/runtime/win64:/mnt/c/Program Files/MATLAB/R2023A/bin:/mnt/c/Program Files/MiKTeX/miktex/bin/x64/:/mnt/c/Users/kriswang/AppData/Local/Microsoft/WindowsApps:/snap/bin:/home/virtualkris2/.local/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/virtualkris2/ros2_ws/install/tripod7:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/virtualkris2/ros2_ws/build/tripod7'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/virtualkris2/ros2_ws/install/tripod7'), ('WSLENV', '')]), 'shell': False}
+[0.043483] (tripod7) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.043581] (tripod7) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.043616] (tripod7) StderrLine: {'line': b'  CMake.\n'}
+[0.043640] (tripod7) StderrLine: {'line': b'\n'}
+[0.043662] (tripod7) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.043684] (tripod7) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.043705] (tripod7) StderrLine: {'line': b'\n'}
+[0.043725] (tripod7) StderrLine: {'line': b'\x1b[0m\n'}
+[0.099583] (-) TimerEvent: {}
+[0.165326] (core_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199706] (-) TimerEvent: {}
+[0.300026] (-) TimerEvent: {}
+[0.400290] (-) TimerEvent: {}
+[0.443763] (core_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.500374] (-) TimerEvent: {}
+[0.600579] (-) TimerEvent: {}
+[0.617624] (core_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.687816] (core_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.691277] (core_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.691643] (core_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.692193] (core_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.693778] (core_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.700642] (-) TimerEvent: {}
+[0.701455] (tripod7) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:5 (find_package):\n'}
+[0.701537] (tripod7) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.701671] (tripod7) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[0.701706] (tripod7) StderrLine: {'line': b'  CMake did not find one.\n'}
+[0.701730] (tripod7) StderrLine: {'line': b'\n'}
+[0.701753] (tripod7) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[0.701775] (tripod7) StderrLine: {'line': b'  of the following names:\n'}
+[0.701797] (tripod7) StderrLine: {'line': b'\n'}
+[0.701821] (tripod7) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[0.701842] (tripod7) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[0.701863] (tripod7) StderrLine: {'line': b'\n'}
+[0.701884] (tripod7) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[0.701904] (tripod7) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[0.701925] (tripod7) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[0.701945] (tripod7) StderrLine: {'line': b'  installed.\n'}
+[0.701965] (tripod7) StderrLine: {'line': b'\n'}
+[0.701986] (tripod7) StderrLine: {'line': b'\x1b[0m\n'}
+[0.702006] (tripod7) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.702033] (tripod7) StdoutLine: {'line': b'See also "/home/virtualkris2/ros2_ws/build/tripod7/CMakeFiles/CMakeOutput.log".\n'}
+[0.702518] (tripod7) CommandEnded: {'returncode': 1}
+[0.716316] (tripod7) JobEnded: {'identifier': 'tripod7', 'rc': 1}
+[0.756815] (core_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.760294] (core_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.760482] (core_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.760727] (core_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.763254] (core_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.800783] (-) TimerEvent: {}
+[0.830401] (core_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.886715] (core_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.889758] (core_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.895800] (core_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.900927] (-) TimerEvent: {}
+[1.001191] (-) TimerEvent: {}
+[1.019178] (core_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.101359] (-) TimerEvent: {}
+[1.151180] (core_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.201436] (-) TimerEvent: {}
+[1.231190] (core_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.301519] (-) TimerEvent: {}
+[1.331302] (core_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.385017] (core_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.385858] (core_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.401589] (-) TimerEvent: {}
+[1.501750] (-) TimerEvent: {}
+[1.554699] (core_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.554853] (core_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.554890] (core_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.554915] (core_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.564146] (core_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.595146] (core_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.601812] (-) TimerEvent: {}
+[1.609736] (core_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.610709] (core_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.612023] (core_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.626150] (core_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.627102] (core_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/virtualkris2/ros2_ws/build/core_interfaces\n'}
+[1.629679] (core_interfaces) JobEnded: {'identifier': 'core_interfaces', 'rc': 'SIGINT'}
+[1.640024] (three_legged_bot) JobSkipped: {'identifier': 'three_legged_bot'}
+[1.640056] (-) EventReactorShutdown: {}

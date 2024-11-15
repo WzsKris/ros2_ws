@@ -1,0 +1,28 @@
+[0.037s] Invoking command in '/home/virtualkris2/ros2_ws/build/three_legged_bot': AMENT_PREFIX_PATH=/home/virtualkris2/ros2_ws/install/core_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/virtualkris2/ros2_ws/install/core_interfaces:/opt/ros/humble:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/virtualkris2/ros2_ws/install/core_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/virtualkris2/ros2_ws/build/three_legged_bot -- -j24 -l24
+[0.059s] [ 18%] Built target client
+[0.060s] [ 45%] Built target server2
+[0.061s] [ 72%] Built target server1
+[0.062s] [100%] Built target server3
+[0.066s] Invoked command in '/home/virtualkris2/ros2_ws/build/three_legged_bot' returned '0': AMENT_PREFIX_PATH=/home/virtualkris2/ros2_ws/install/core_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/virtualkris2/ros2_ws/install/core_interfaces:/opt/ros/humble:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/virtualkris2/ros2_ws/install/core_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/virtualkris2/ros2_ws/build/three_legged_bot -- -j24 -l24
+[0.078s] Invoking command in '/home/virtualkris2/ros2_ws/build/three_legged_bot': AMENT_PREFIX_PATH=/home/virtualkris2/ros2_ws/install/core_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/virtualkris2/ros2_ws/install/core_interfaces:/opt/ros/humble:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/virtualkris2/ros2_ws/install/core_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/virtualkris2/ros2_ws/build/three_legged_bot
+[0.080s] -- Install configuration: ""
+[0.080s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/three_legged_bot/lib/three_legged_bot/server1
+[0.080s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/three_legged_bot/lib/three_legged_bot/server2
+[0.080s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/three_legged_bot/lib/three_legged_bot/server3
+[0.080s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/three_legged_bot/lib/three_legged_bot/client
+[0.080s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/three_legged_bot/share/ament_index/resource_index/package_run_dependencies/three_legged_bot
+[0.080s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/three_legged_bot/share/ament_index/resource_index/parent_prefix_path/three_legged_bot
+[0.080s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/three_legged_bot/share/three_legged_bot/environment/ament_prefix_path.sh
+[0.081s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/three_legged_bot/share/three_legged_bot/environment/ament_prefix_path.dsv
+[0.081s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/three_legged_bot/share/three_legged_bot/environment/path.sh
+[0.081s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/three_legged_bot/share/three_legged_bot/environment/path.dsv
+[0.081s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/three_legged_bot/share/three_legged_bot/local_setup.bash
+[0.081s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/three_legged_bot/share/three_legged_bot/local_setup.sh
+[0.081s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/three_legged_bot/share/three_legged_bot/local_setup.zsh
+[0.081s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/three_legged_bot/share/three_legged_bot/local_setup.dsv
+[0.081s] -- Installing: /home/virtualkris2/ros2_ws/install/three_legged_bot/share/three_legged_bot/package.dsv
+[0.081s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/three_legged_bot/share/ament_index/resource_index/packages/three_legged_bot
+[0.081s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/three_legged_bot/share/three_legged_bot/cmake/three_legged_botConfig.cmake
+[0.081s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/three_legged_bot/share/three_legged_bot/cmake/three_legged_botConfig-version.cmake
+[0.081s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/three_legged_bot/share/three_legged_bot/package.xml
+[0.082s] Invoked command in '/home/virtualkris2/ros2_ws/build/three_legged_bot' returned '0': AMENT_PREFIX_PATH=/home/virtualkris2/ros2_ws/install/core_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/virtualkris2/ros2_ws/install/core_interfaces:/opt/ros/humble:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/virtualkris2/ros2_ws/install/core_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/virtualkris2/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/virtualkris2/ros2_ws/build/three_legged_bot

@@ -1,0 +1,2 @@
+Invoking command in '/home/virtualkris2/ros2_ws/build/tripod_robot': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/virtualkris2/ros2_ws/src/tripod7 -DCMAKE_INSTALL_PREFIX=/home/virtualkris2/ros2_ws/install/tripod_robot
+Invoked command in '/home/virtualkris2/ros2_ws/build/tripod_robot' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/virtualkris2/ros2_ws/src/tripod7 -DCMAKE_INSTALL_PREFIX=/home/virtualkris2/ros2_ws/install/tripod_robot

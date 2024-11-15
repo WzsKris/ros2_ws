@@ -1,0 +1,82 @@
+In file included from [01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/leg2.cpp:21[m[K:
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:[m[K In function ‘[01m[Kvoid multiloopControl(uint8_t, int, boost::asio::serial_port&)[m[K’:
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:230:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  230 |     while ([01;35m[Kcommand.size() <= CMDSize[m[K) {
+      |            [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:228:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  228 |     int [01;35m[Ksize[m[K = command.size();
+      |         [01;35m[K^~~~[m[K
+In file included from [01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/leg1.cpp:23[m[K:
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:[m[K In function ‘[01m[Kvoid multiloopControl(uint8_t, int, boost::asio::serial_port&)[m[K’:
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:230:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  230 |     while ([01;35m[Kcommand.size() <= CMDSize[m[K) {
+      |            [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+In file included from [01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/leg3.cpp:21[m[K:
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:[m[K In function ‘[01m[Kvoid multiloopControl(uint8_t, int, boost::asio::serial_port&)[m[K’:
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:230:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  230 |     while ([01;35m[Kcommand.size() <= CMDSize[m[K) {
+      |            [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:228:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  228 |     int [01;35m[Ksize[m[K = command.size();
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:228:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  228 |     int [01;35m[Ksize[m[K = command.size();
+      |         [01;35m[K^~~~[m[K
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:[m[K In function ‘[01m[Kvoid universialControl(int, uint8_t, int, int, int, uint8_t, boost::asio::serial_port&)[m[K’:
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:316:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  316 |         while ([01;35m[Kbytes.size() < sizeof64[m[K) {
+      |                [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:342:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  342 |         while ([01;35m[Kbytes.size() < sizeof32[m[K) {
+      |                [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:[m[K In function ‘[01m[Kvoid universialControl(int, uint8_t, int, int, int, uint8_t, boost::asio::serial_port&)[m[K’:
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:316:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  316 |         while ([01;35m[Kbytes.size() < sizeof64[m[K) {
+      |                [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:342:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  342 |         while ([01;35m[Kbytes.size() < sizeof32[m[K) {
+      |                [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:273:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KresponseType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  273 |     int [01;35m[KresponseType[m[K = commandInfoTX[location][++index];
+      |         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:248:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktorque[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  248 | void universialControl(int commandID, uint8_t motorID, int degreePosition, int dps, [01;35m[Kint torque[m[K, uint8_t dir, boost::asio::serial_port& serial) {
+      |                                                                                     [01;35m[K~~~~^~~~~~[m[K
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:273:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KresponseType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  273 |     int [01;35m[KresponseType[m[K = commandInfoTX[location][++index];
+      |         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:248:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktorque[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  248 | void universialControl(int commandID, uint8_t motorID, int degreePosition, int dps, [01;35m[Kint torque[m[K, uint8_t dir, boost::asio::serial_port& serial) {
+      |                                                                                     [01;35m[K~~~~^~~~~~[m[K
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:[m[K In function ‘[01m[Kstd::vector<double, std::allocator<double> > readResponse(boost::asio::serial_port&, std::vector<unsigned char>, boost::system::error_code)[m[K’:
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:431:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  431 |         for (int j = maxIndex; j >= startIndexValue && [01;35m[Kj < data.size()[m[K; --j) {
+      |                                                        [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:[m[K In function ‘[01m[Kvoid universialControl(int, uint8_t, int, int, int, uint8_t, boost::asio::serial_port&)[m[K’:
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:316:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  316 |         while ([01;35m[Kbytes.size() < sizeof64[m[K) {
+      |                [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:342:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  342 |         while ([01;35m[Kbytes.size() < sizeof32[m[K) {
+      |                [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:273:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KresponseType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  273 |     int [01;35m[KresponseType[m[K = commandInfoTX[location][++index];
+      |         [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:248:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktorque[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  248 | void universialControl(int commandID, uint8_t motorID, int degreePosition, int dps, [01;35m[Kint torque[m[K, uint8_t dir, boost::asio::serial_port& serial) {
+      |                                                                                     [01;35m[K~~~~^~~~~~[m[K
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:[m[K In function ‘[01m[Kstd::vector<double, std::allocator<double> > readResponse(boost::asio::serial_port&, std::vector<unsigned char>, boost::system::error_code)[m[K’:
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:431:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  431 |         for (int j = maxIndex; j >= startIndexValue && [01;35m[Kj < data.size()[m[K; --j) {
+      |                                                        [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:[m[K In function ‘[01m[Kstd::vector<double, std::allocator<double> > readResponse(boost::asio::serial_port&, std::vector<unsigned char>, boost::system::error_code)[m[K’:
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/Core.h:431:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  431 |         for (int j = maxIndex; j >= startIndexValue && [01;35m[Kj < data.size()[m[K; --j) {
+      |                                                        [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/leg1.cpp:[m[K In function ‘[01m[Kvoid legcontrol(std::shared_ptr<core_interfaces::srv::UiMotor_Request_<std::allocator<void> > >, std::shared_ptr<core_interfaces::srv::UiMotor_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/leg1.cpp:66:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kspeed3[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   66 |   int speed,speed1,[01;35m[Kspeed3[m[K;
+      |                    [01;35m[K^~~~~~[m[K
+[01m[K/home/virtualkris2/ros2_ws/src/three_legged_bot/src/leg1.cpp:67:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle3[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   67 |   int angle,angle1,[01;35m[Kangle3[m[K;
+      |                    [01;35m[K^~~~~~[m[K

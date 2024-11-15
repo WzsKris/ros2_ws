@@ -1,0 +1,6 @@
+Invoking command in '/home/virtualkris2/ros2_ws/build/tripod7': /usr/bin/cmake /home/virtualkris2/ros2_ws/src/tripod7 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/virtualkris2/ros2_ws/install/tripod7
+Invoked command in '/home/virtualkris2/ros2_ws/build/tripod7' returned '0': /usr/bin/cmake /home/virtualkris2/ros2_ws/src/tripod7 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/virtualkris2/ros2_ws/install/tripod7
+Invoking command in '/home/virtualkris2/ros2_ws/build/tripod7': /usr/bin/cmake --build /home/virtualkris2/ros2_ws/build/tripod7 -- -j24 -l24
+Invoked command in '/home/virtualkris2/ros2_ws/build/tripod7' returned '0': /usr/bin/cmake --build /home/virtualkris2/ros2_ws/build/tripod7 -- -j24 -l24
+Invoking command in '/home/virtualkris2/ros2_ws/build/tripod7': /usr/bin/cmake --install /home/virtualkris2/ros2_ws/build/tripod7
+Invoked command in '/home/virtualkris2/ros2_ws/build/tripod7' returned '0': /usr/bin/cmake --install /home/virtualkris2/ros2_ws/build/tripod7

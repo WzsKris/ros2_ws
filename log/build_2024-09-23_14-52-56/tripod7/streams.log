@@ -1,0 +1,77 @@
+[0.006s] Invoking command in '/home/virtualkris2/ros2_ws/build/tripod7': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/virtualkris2/ros2_ws/build/tripod7 -- -j24 -l24
+[0.014s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.102s] -- Configuring done
+[0.103s] -- Generating done
+[0.104s] -- Build files have been written to: /home/virtualkris2/ros2_ws/build/tripod7
+[0.112s] Invoked command in '/home/virtualkris2/ros2_ws/build/tripod7' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/virtualkris2/ros2_ws/build/tripod7 -- -j24 -l24
+[0.124s] Invoking command in '/home/virtualkris2/ros2_ws/build/tripod7': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/virtualkris2/ros2_ws/build/tripod7
+[0.127s] -- Install configuration: ""
+[0.127s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/config
+[0.128s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/config/joint_names_tripod7.yaml
+[0.128s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/config/joint_names_tripod7.yaml:Zone.Identifier:Zone.Identifier
+[0.128s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/config/joint_names_tripod7.yaml:Zone.Identifier
+[0.128s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/launch
+[0.128s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/launch/gazebo.launch:Zone.Identifier:Zone.Identifier
+[0.128s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/launch/control.launch.py
+[0.128s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/launch/robot_description.launch.py
+[0.128s] -- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/launch/display.launch.py
+[0.128s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/launch/control.launch:Zone.Identifier
+[0.128s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/launch/display.launch:Zone.Identifier
+[0.128s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/launch/gazebo.launch:Zone.Identifier
+[0.128s] -- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/launch/gazebo.launch.py
+[0.128s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/launch/display.launch:Zone.Identifier:Zone.Identifier
+[0.128s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/launch/robot_description.launch:Zone.Identifier
+[0.129s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes
+[0.129s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/lsec02.STL:Zone.Identifier
+[0.129s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/hsec02.STL:Zone.Identifier:Zone.Identifier
+[0.129s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/hsec02.STL
+[0.129s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/hsec01.STL
+[0.129s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/sec01.STL:Zone.Identifier
+[0.129s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/hsec02.STL:Zone.Identifier
+[0.129s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/sec02.STL:Zone.Identifier
+[0.129s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/sec01.STL
+[0.129s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/lsec01.STL
+[0.129s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/base_link.STL:Zone.Identifier:Zone.Identifier
+[0.129s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/base_link.STL:Zone.Identifier
+[0.129s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/lsec02.STL
+[0.129s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/sec03.STL:Zone.Identifier:Zone.Identifier
+[0.130s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/lsec01.STL:Zone.Identifier
+[0.130s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/sec03.STL
+[0.130s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/sec03.STL:Zone.Identifier
+[0.130s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/sec02.STL
+[0.130s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/hsec03.STL:Zone.Identifier
+[0.130s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/base_link.STL
+[0.130s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/lsec03.STL:Zone.Identifier
+[0.130s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/hsec01.STL:Zone.Identifier
+[0.130s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/hsec01.STL:Zone.Identifier:Zone.Identifier
+[0.130s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/lsec02.STL:Zone.Identifier:Zone.Identifier
+[0.130s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/lsec01.STL:Zone.Identifier:Zone.Identifier
+[0.130s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/sec02.STL:Zone.Identifier:Zone.Identifier
+[0.130s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/hsec03.STL
+[0.131s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/lsec03.STL
+[0.131s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/lsec03.STL:Zone.Identifier:Zone.Identifier
+[0.131s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/hsec03.STL:Zone.Identifier:Zone.Identifier
+[0.131s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/sec01.STL:Zone.Identifier:Zone.Identifier
+[0.131s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/urdf
+[0.131s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/urdf/tripod7.csv:Zone.Identifier:Zone.Identifier
+[0.131s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/urdf/tripod7.csv:Zone.Identifier
+[0.131s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/urdf/tripod7.urdf
+[0.131s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/urdf/tripod7.csv
+[0.131s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/urdf/tripod7.urdf:Zone.Identifier:Zone.Identifier
+[0.131s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/urdf/tripod7.urdf:Zone.Identifier
+[0.131s] -- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/ament_index/resource_index/package_run_dependencies/tripod7
+[0.131s] -- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/ament_index/resource_index/parent_prefix_path/tripod7
+[0.131s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/environment/ament_prefix_path.sh
+[0.131s] -- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/environment/ament_prefix_path.dsv
+[0.132s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/environment/path.sh
+[0.132s] -- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/environment/path.dsv
+[0.132s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/local_setup.bash
+[0.132s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/local_setup.sh
+[0.132s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/local_setup.zsh
+[0.132s] -- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/local_setup.dsv
+[0.132s] -- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/package.dsv
+[0.132s] -- Up-to-date: /home/virtualkris2/ros2_ws/install/tripod7/share/ament_index/resource_index/packages/tripod7
+[0.132s] -- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/cmake/tripod7Config.cmake
+[0.132s] -- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/cmake/tripod7Config-version.cmake
+[0.132s] -- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/package.xml
+[0.133s] Invoked command in '/home/virtualkris2/ros2_ws/build/tripod7' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/virtualkris2/ros2_ws/build/tripod7

@@ -1,0 +1,2 @@
+Invoking command in '/home/virtualkris2/ros2_ws/build/tripod7': /usr/bin/cmake /home/virtualkris2/ros2_ws/src/tripod7 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/virtualkris2/ros2_ws/install/tripod7
+Invoked command in '/home/virtualkris2/ros2_ws/build/tripod7' returned '1': /usr/bin/cmake /home/virtualkris2/ros2_ws/src/tripod7 -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/virtualkris2/ros2_ws/install/tripod7

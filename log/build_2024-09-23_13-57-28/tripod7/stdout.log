@@ -1,0 +1,86 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/virtualkris2/ros2_ws/build/tripod7
+-- Install configuration: ""
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/config
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/config/joint_names_tripod7.yaml
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/config/joint_names_tripod7.yaml:Zone.Identifier:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/config/joint_names_tripod7.yaml:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/launch
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/launch/gazebo.launch:Zone.Identifier:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/launch/control.launch.py
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/launch/robot_description.launch.py
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/launch/display.launch.py
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/launch/control.launch:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/launch/display.launch:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/launch/gazebo.launch:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/launch/gazebo.launch.py
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/launch/display.launch:Zone.Identifier:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/launch/robot_description.launch:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/lsec02.STL:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/hsec02.STL:Zone.Identifier:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/hsec02.STL
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/hsec01.STL
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/sec01.STL:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/hsec02.STL:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/sec02.STL:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/sec01.STL
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/lsec01.STL
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/base_link.STL:Zone.Identifier:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/base_link.STL:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/lsec02.STL
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/sec03.STL:Zone.Identifier:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/lsec01.STL:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/sec03.STL
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/sec03.STL:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/sec02.STL
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/hsec03.STL:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/base_link.STL
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/lsec03.STL:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/hsec01.STL:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/hsec01.STL:Zone.Identifier:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/lsec02.STL:Zone.Identifier:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/lsec01.STL:Zone.Identifier:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/sec02.STL:Zone.Identifier:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/hsec03.STL
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/lsec03.STL
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/lsec03.STL:Zone.Identifier:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/hsec03.STL:Zone.Identifier:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/meshes/sec01.STL:Zone.Identifier:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/urdf
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/urdf/tripod7.csv:Zone.Identifier:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/urdf/tripod7.csv:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/urdf/tripod7.urdf
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/urdf/tripod7.csv
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/urdf/tripod7.urdf:Zone.Identifier:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/urdf/tripod7.urdf:Zone.Identifier
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/ament_index/resource_index/package_run_dependencies/tripod7
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/ament_index/resource_index/parent_prefix_path/tripod7
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/environment/ament_prefix_path.sh
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/environment/ament_prefix_path.dsv
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/environment/path.sh
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/environment/path.dsv
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/local_setup.bash
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/local_setup.sh
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/local_setup.zsh
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/local_setup.dsv
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/package.dsv
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/ament_index/resource_index/packages/tripod7
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/cmake/tripod7Config.cmake
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/cmake/tripod7Config-version.cmake
+-- Installing: /home/virtualkris2/ros2_ws/install/tripod7/share/tripod7/package.xml
