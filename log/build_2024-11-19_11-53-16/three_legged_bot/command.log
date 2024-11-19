@@ -1,0 +1,2 @@
+Invoking command in '/home/user/ros2_ws/build/three_legged_bot': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/core_interfaces:/home/user/ros2_ws/install/three_legged_bot:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/three_legged_bot -- -j4 -l4
+Invoked command in '/home/user/ros2_ws/build/three_legged_bot' returned '2': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/core_interfaces:/home/user/ros2_ws/install/three_legged_bot:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/three_legged_bot -- -j4 -l4

@@ -1,0 +1,1 @@
+/home/user/ros2_ws/build/core_interfaces/rosidl_generator_py/core_interfaces/_core_interfaces_s.ep.rosidl_typesupport_c.c

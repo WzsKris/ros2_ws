@@ -1,0 +1,6 @@
+Invoking command in '/home/user/ros2_ws/build/core_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/ros2_ws/src/core_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/core_interfaces
+Invoked command in '/home/user/ros2_ws/build/core_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/ros2_ws/src/core_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/core_interfaces
+Invoking command in '/home/user/ros2_ws/build/core_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/core_interfaces -- -j4 -l4
+Invoked command in '/home/user/ros2_ws/build/core_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/core_interfaces -- -j4 -l4
+Invoking command in '/home/user/ros2_ws/build/core_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/core_interfaces
+Invoked command in '/home/user/ros2_ws/build/core_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/core_interfaces

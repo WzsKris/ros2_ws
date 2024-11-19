@@ -1,0 +1,1 @@
+/home/user/ros2_ws/build/core_interfaces/ament_cmake_python/core_interfaces/core_interfaces.egg-info/SOURCES.txt

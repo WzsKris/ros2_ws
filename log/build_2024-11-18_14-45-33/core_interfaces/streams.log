@@ -1,0 +1,201 @@
+[0.009s] Invoking command in '/home/user/ros2_ws/build/core_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/ros2_ws/src/core_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/core_interfaces
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.117s] -- The CXX compiler identification is GNU 11.4.0
+[0.123s] -- Detecting C compiler ABI info
+[0.186s] -- Detecting C compiler ABI info - done
+[0.194s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.194s] -- Detecting C compile features
+[0.194s] -- Detecting C compile features - done
+[0.197s] -- Detecting CXX compiler ABI info
+[0.268s] -- Detecting CXX compiler ABI info - done
+[0.275s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.275s] -- Detecting CXX compile features
+[0.276s] -- Detecting CXX compile features - done
+[0.278s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.416s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.474s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.496s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.498s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.504s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.540s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.796s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.967s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.183s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.204s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.205s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.229s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.230s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.230s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.230s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.250s] -- Found PythonExtra: .so  
+[1.281s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.298s] -- Added test 'lint_cmake' to check CMake code style
+[1.299s] -- Added test 'xmllint' to check XML markup files
+[1.302s] -- Configuring done
+[1.324s] -- Generating done
+[1.326s] -- Build files have been written to: /home/user/ros2_ws/build/core_interfaces
+[1.332s] Invoked command in '/home/user/ros2_ws/build/core_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/ros2_ws/src/core_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/core_interfaces
+[1.333s] Invoking command in '/home/user/ros2_ws/build/core_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/core_interfaces -- -j4 -l4
+[1.379s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.394s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.410s] [  6%] Built target ament_cmake_python_symlink_core_interfaces
+[1.702s] running egg_info
+[1.702s] creating core_interfaces.egg-info
+[1.702s] writing core_interfaces.egg-info/PKG-INFO
+[1.703s] writing dependency_links to core_interfaces.egg-info/dependency_links.txt
+[1.703s] writing top-level names to core_interfaces.egg-info/top_level.txt
+[1.704s] writing manifest file 'core_interfaces.egg-info/SOURCES.txt'
+[1.706s] reading manifest file 'core_interfaces.egg-info/SOURCES.txt'
+[1.707s] writing manifest file 'core_interfaces.egg-info/SOURCES.txt'
+[1.719s] [  6%] Built target core_interfaces__cpp
+[1.723s] [  9%] [32mBuilding C object CMakeFiles/core_interfaces__rosidl_generator_c.dir/rosidl_generator_c/core_interfaces/srv/detail/ui_motor__functions.c.o[0m
+[1.731s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.732s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.742s] [ 16%] Built target ament_cmake_python_build_core_interfaces_egg
+[1.754s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.793s] [ 22%] [32m[1mLinking C shared library libcore_interfaces__rosidl_generator_c.so[0m
+[1.838s] [ 22%] Built target core_interfaces__rosidl_generator_c
+[1.846s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.058s] [ 29%] [32mBuilding CXX object CMakeFiles/core_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/core_interfaces/srv/detail/ui_motor__type_support.cpp.o[0m
+[2.070s] [ 32%] [32mBuilding CXX object CMakeFiles/core_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/core_interfaces/srv/detail/dds_fastrtps/ui_motor__type_support.cpp.o[0m
+[2.070s] [ 35%] [32mBuilding CXX object CMakeFiles/core_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/core_interfaces/srv/ui_motor__type_support.cpp.o[0m
+[2.178s] [ 38%] [32mBuilding C object CMakeFiles/core_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/core_interfaces/srv/detail/ui_motor__type_support.c.o[0m
+[2.220s] [ 41%] [32m[1mLinking C shared library libcore_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.263s] [ 41%] Built target core_interfaces__rosidl_typesupport_introspection_c
+[2.271s] [ 45%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.474s] [ 48%] [32m[1mLinking CXX shared library libcore_interfaces__rosidl_typesupport_cpp.so[0m
+[2.526s] [ 48%] Built target core_interfaces__rosidl_typesupport_cpp
+[2.538s] [ 51%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.594s] [ 54%] [32m[1mLinking CXX shared library libcore_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.686s] [ 58%] [32mBuilding CXX object CMakeFiles/core_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/core_interfaces/srv/ui_motor__type_support.cpp.o[0m
+[2.697s] [ 58%] Built target core_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.710s] [ 61%] [32m[1mLinking CXX shared library libcore_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.718s] [ 64%] [32m[1mLinking CXX shared library libcore_interfaces__rosidl_typesupport_c.so[0m
+[2.755s] [ 64%] Built target core_interfaces__rosidl_typesupport_introspection_cpp
+[2.761s] [ 64%] Built target core_interfaces__rosidl_typesupport_c
+[2.843s] [ 67%] [32mBuilding CXX object CMakeFiles/core_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/core_interfaces/srv/detail/ui_motor__type_support_c.cpp.o[0m
+[3.166s] [ 70%] [32m[1mLinking CXX shared library libcore_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.247s] [ 70%] Built target core_interfaces__rosidl_typesupport_fastrtps_c
+[3.264s] [ 70%] Built target core_interfaces
+[3.282s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.620s] [ 74%] Built target core_interfaces__py
+[3.640s] [ 77%] [32mBuilding C object CMakeFiles/core_interfaces__rosidl_generator_py.dir/rosidl_generator_py/core_interfaces/srv/_ui_motor_s.c.o[0m
+[3.741s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/core_interfaces/libcore_interfaces__rosidl_generator_py.so[0m
+[3.783s] [ 80%] Built target core_interfaces__rosidl_generator_py
+[3.804s] [ 87%] [32mBuilding C object CMakeFiles/core_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/core_interfaces/_core_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.804s] [ 87%] [32mBuilding C object CMakeFiles/core_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/core_interfaces/_core_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.809s] [ 90%] [32mBuilding C object CMakeFiles/core_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/core_interfaces/_core_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.914s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/core_interfaces/core_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.918s] [100%] [32m[1mLinking C shared library rosidl_generator_py/core_interfaces/core_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.918s] [100%] [32m[1mLinking C shared library rosidl_generator_py/core_interfaces/core_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.951s] [100%] Built target core_interfaces__rosidl_typesupport_c__pyext
+[3.954s] [100%] Built target core_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.955s] [100%] Built target core_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.965s] Invoked command in '/home/user/ros2_ws/build/core_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/core_interfaces -- -j4 -l4
+[4.023s] Invoking command in '/home/user/ros2_ws/build/core_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/core_interfaces
+[4.032s] -- Install configuration: ""
+[4.033s] -- Execute custom install script
+[4.033s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/ament_index/resource_index/rosidl_interfaces/core_interfaces
+[4.044s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.053s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__functions.h
+[4.060s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__struct.h
+[4.068s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__type_support.h
+[4.075s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/ui_motor.h
+[4.082s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/environment/library_path.sh
+[4.090s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/environment/library_path.dsv
+[4.099s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.108s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__rosidl_typesupport_fastrtps_c.h
+[4.116s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.124s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__rosidl_typesupport_introspection_c.h
+[4.133s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__builder.hpp
+[4.143s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__struct.hpp
+[4.153s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__traits.hpp
+[4.160s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/ui_motor.hpp
+[4.169s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.176s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__rosidl_typesupport_fastrtps_cpp.hpp
+[4.185s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__rosidl_typesupport_introspection_cpp.hpp
+[4.192s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/environment/pythonpath.sh
+[4.200s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/environment/pythonpath.dsv
+[4.209s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.217s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.226s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.235s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.243s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/__init__.py
+[4.251s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/_core_interfaces_s.ep.rosidl_typesupport_c.c
+[4.259s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/_core_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.269s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/_core_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.277s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/core_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.286s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/core_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.295s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/core_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.304s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/libcore_interfaces__rosidl_generator_py.so
+[4.312s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/srv/__init__.py
+[4.321s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/srv/_ui_motor.py
+[4.329s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/srv/_ui_motor_s.c
+[4.344s] -- Up-to-date symlink: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/core_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.344s] -- Up-to-date symlink: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/core_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.344s] -- Up-to-date symlink: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/core_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.344s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/srv/UiMotor.idl
+[4.354s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/srv/UiMotor.srv
+[4.362s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/srv/UiMotor_Request.msg
+[4.370s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/srv/UiMotor_Response.msg
+[4.377s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/ament_index/resource_index/package_run_dependencies/core_interfaces
+[4.385s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/ament_index/resource_index/parent_prefix_path/core_interfaces
+[4.393s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/environment/ament_prefix_path.sh
+[4.401s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/environment/ament_prefix_path.dsv
+[4.408s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/environment/path.sh
+[4.416s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/environment/path.dsv
+[4.424s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/local_setup.bash
+[4.432s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/local_setup.sh
+[4.442s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/local_setup.zsh
+[4.453s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/local_setup.dsv
+[4.461s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/package.dsv
+[4.469s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/ament_index/resource_index/packages/core_interfaces
+[4.476s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.485s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.494s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.503s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.512s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.521s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.529s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.539s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfacesConfig.cmake
+[4.547s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfacesConfig-version.cmake
+[4.556s] -- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/package.xml
+[4.563s] -- Installing: /home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_generator_c.so
+[4.563s] -- Set runtime path of "/home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_generator_c.so" to ""
+[4.563s] -- Installing: /home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.564s] -- Set runtime path of "/home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.564s] -- Installing: /home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_introspection_c.so
+[4.564s] -- Set runtime path of "/home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.565s] -- Installing: /home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_c.so
+[4.565s] -- Set runtime path of "/home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_c.so" to ""
+[4.565s] -- Installing: /home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.566s] -- Set runtime path of "/home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.567s] -- Installing: /home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.567s] -- Set runtime path of "/home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.567s] -- Installing: /home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_cpp.so
+[4.567s] -- Set runtime path of "/home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.598s] Listing '/home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces'...
+[4.598s] Compiling '/home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/__init__.py'...
+[4.598s] Listing '/home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/srv'...
+[4.598s] Compiling '/home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/srv/__init__.py'...
+[4.598s] Compiling '/home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/srv/_ui_motor.py'...
+[4.602s] -- Installing: /home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_generator_py.so
+[4.602s] -- Set runtime path of "/home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_generator_py.so" to ""
+[4.603s] -- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_generator_cExport.cmake
+[4.603s] -- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.603s] -- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.603s] -- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.603s] -- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.603s] -- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.604s] -- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfaces__rosidl_typesupport_cExport.cmake
+[4.604s] -- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.604s] -- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_generator_cppExport.cmake
+[4.604s] -- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.604s] -- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.604s] -- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.604s] -- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.605s] -- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfaces__rosidl_typesupport_cppExport.cmake
+[4.605s] -- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.605s] -- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_generator_pyExport.cmake
+[4.605s] -- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.607s] Invoked command in '/home/user/ros2_ws/build/core_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/core_interfaces

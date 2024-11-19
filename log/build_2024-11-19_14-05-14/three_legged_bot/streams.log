@@ -1,0 +1,86 @@
+[0.010s] Invoking command in '/home/user/ros2_ws/build/three_legged_bot': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/core_interfaces:/home/user/ros2_ws/install/three_legged_bot:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/three_legged_bot -- -j4 -l4
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target server1[0m
+[0.096s] [ 18%] Built target client
+[0.097s] [ 45%] Built target server3
+[0.100s] [ 72%] Built target server2
+[0.100s] [ 81%] [32mBuilding CXX object CMakeFiles/server1.dir/src/leg1.cpp.o[0m
+[3.217s] In file included from [01m[K/home/user/ros2_ws/src/three_legged_bot/src/leg1.cpp:23[m[K:
+[3.217s] [01m[K/home/user/ros2_ws/src/three_legged_bot/src/Core.h:[m[K In function ‘[01m[Kvoid multiloopControl(uint8_t, int, boost::asio::serial_port&)[m[K’:
+[3.218s] [01m[K/home/user/ros2_ws/src/three_legged_bot/src/Core.h:230:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.220s]   230 |     while ([01;35m[Kcommand.size() <= CMDSize[m[K) {
+[3.220s]       |            [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[3.221s] [01m[K/home/user/ros2_ws/src/three_legged_bot/src/Core.h:228:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksize[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.221s]   228 |     int [01;35m[Ksize[m[K = command.size();
+[3.221s]       |         [01;35m[K^~~~[m[K
+[3.223s] [01m[K/home/user/ros2_ws/src/three_legged_bot/src/Core.h:[m[K In function ‘[01m[Kvoid universialControl(int, uint8_t, int, int, int, uint8_t, boost::asio::serial_port&)[m[K’:
+[3.223s] [01m[K/home/user/ros2_ws/src/three_legged_bot/src/Core.h:316:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.223s]   316 |         while ([01;35m[Kbytes.size() < sizeof64[m[K) {
+[3.223s]       |                [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[3.224s] [01m[K/home/user/ros2_ws/src/three_legged_bot/src/Core.h:342:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.224s]   342 |         while ([01;35m[Kbytes.size() < sizeof32[m[K) {
+[3.224s]       |                [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[3.225s] [01m[K/home/user/ros2_ws/src/three_legged_bot/src/Core.h:273:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KresponseType[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.225s]   273 |     int [01;35m[KresponseType[m[K = commandInfoTX[location][++index];
+[3.225s]       |         [01;35m[K^~~~~~~~~~~~[m[K
+[3.225s] [01m[K/home/user/ros2_ws/src/three_legged_bot/src/Core.h:248:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktorque[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.226s]   248 | ommandID, uint8_t motorID, int degreePosition, int dps, [01;35m[Kint torque[m[K, uint8_t dir, boost::asio::serial_port& serial) {
+[3.226s]       |                                                         [01;35m[K~~~~^~~~~~[m[K
+[3.226s] 
+[3.233s] [01m[K/home/user/ros2_ws/src/three_legged_bot/src/Core.h:[m[K In function ‘[01m[Kstd::vector<double, std::allocator<double> > readResponse(boost::asio::serial_port&, std::vector<unsigned char>, boost::system::error_code)[m[K’:
+[3.233s] [01m[K/home/user/ros2_ws/src/three_legged_bot/src/Core.h:431:58:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[3.233s]   431 |         for (int j = maxIndex; j >= startIndexValue && [01;35m[Kj < data.size()[m[K; --j) {
+[3.233s]       |                                                        [01;35m[K~~^~~~~~~~~~~~~[m[K
+[3.249s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.249s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.249s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.249s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.249s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.249s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.249s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.249s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.249s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.249s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.250s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.250s]                  from [01m[K/home/user/ros2_ws/src/three_legged_bot/src/leg1.cpp:19[m[K:
+[3.250s] [01m[K/home/user/ros2_ws/src/three_legged_bot/src/leg1.cpp:[m[K In function ‘[01m[Kvoid legcontrol(std::shared_ptr<core_interfaces::srv::UiMotor_Request_<std::allocator<void> > >, std::shared_ptr<core_interfaces::srv::UiMotor_Response_<std::allocator<void> > >)[m[K’:
+[3.250s] [01m[K/home/user/ros2_ws/src/three_legged_bot/src/leg1.cpp:270:51:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.250s]   270 |         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), [01;35m[K"Response received: %d"[m[K, response[3]);
+[3.250s]       |                                                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.250s] [01m[K/home/user/ros2_ws/src/three_legged_bot/src/leg1.cpp:270:72:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.250s]   270 | CPP_INFO(rclcpp::get_logger("rclcpp"), "Response received: [01;36m[K%d[m[K", response[3]);
+[3.250s]       |                                                            [01;36m[K~^[m[K
+[3.250s]       |                                                             [01;36m[K|[m[K
+[3.250s]       |                                                             [01;36m[Kint[m[K
+[3.250s]       |                                                            [32m[K%f[m[K
+[3.251s] [01m[K/home/user/ros2_ws/src/three_legged_bot/src/leg1.cpp:69:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kspeed3[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.251s]    69 |   int speed,speed1,[01;35m[Kspeed3[m[K;
+[3.252s]       |                    [01;35m[K^~~~~~[m[K
+[3.252s] [01m[K/home/user/ros2_ws/src/three_legged_bot/src/leg1.cpp:70:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle3[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[3.252s]    70 |   int angle,angle1,[01;35m[Kangle3[m[K;
+[3.252s]       |                    [01;35m[K^~~~~~[m[K
+[6.051s] [ 90%] [32m[1mLinking CXX executable server1[0m
+[6.240s] [100%] Built target server1
+[6.250s] Invoked command in '/home/user/ros2_ws/build/three_legged_bot' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/core_interfaces:/home/user/ros2_ws/install/three_legged_bot:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/three_legged_bot -- -j4 -l4
+[6.286s] Invoking command in '/home/user/ros2_ws/build/three_legged_bot': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/core_interfaces:/home/user/ros2_ws/install/three_legged_bot:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/three_legged_bot
+[6.294s] -- Install configuration: ""
+[6.294s] -- Execute custom install script
+[6.294s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/lib/three_legged_bot/server1
+[6.295s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/lib/three_legged_bot/server2
+[6.295s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/lib/three_legged_bot/server3
+[6.295s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/lib/three_legged_bot/client
+[6.295s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/ament_index/resource_index/package_run_dependencies/three_legged_bot
+[6.295s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/ament_index/resource_index/parent_prefix_path/three_legged_bot
+[6.296s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/environment/ament_prefix_path.sh
+[6.296s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/environment/ament_prefix_path.dsv
+[6.296s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/environment/path.sh
+[6.296s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/environment/path.dsv
+[6.296s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/local_setup.bash
+[6.296s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/local_setup.sh
+[6.296s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/local_setup.zsh
+[6.297s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/local_setup.dsv
+[6.297s] -- Symlinking: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/package.dsv
+[6.306s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/ament_index/resource_index/packages/three_legged_bot
+[6.306s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/cmake/three_legged_botConfig.cmake
+[6.306s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/cmake/three_legged_botConfig-version.cmake
+[6.308s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/package.xml
+[6.311s] Invoked command in '/home/user/ros2_ws/build/three_legged_bot' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/core_interfaces:/home/user/ros2_ws/install/three_legged_bot:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/three_legged_bot

@@ -1,0 +1,45 @@
+[0.009s] Invoking command in '/home/user/ros2_ws/build/three_legged_bot': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/core_interfaces:/home/user/ros2_ws/install/three_legged_bot:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/three_legged_bot -- -j4 -l4
+[0.035s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.150s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.156s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.185s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.187s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.193s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.202s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.213s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.243s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.244s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.340s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.390s] -- Found core_interfaces: 0.0.0 (/home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake)
+[0.398s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[0.411s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.477s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.478s] -- Configured cppcheck include dirs: 
+[0.478s] -- Configured cppcheck exclude dirs and/or files: 
+[0.478s] -- Added test 'lint_cmake' to check CMake code style
+[0.479s] -- Added test 'uncrustify' to check C / C++ code style
+[0.480s] -- Configured uncrustify additional arguments: 
+[0.480s] -- Added test 'xmllint' to check XML markup files
+[0.481s] -- Configuring done
+[0.501s] -- Generating done
+[0.503s] -- Build files have been written to: /home/user/ros2_ws/build/three_legged_bot
+[0.536s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.536s] [35m[1mConsolidate compiler generated dependencies of target server1[0m
+[0.536s] [35m[1mConsolidate compiler generated dependencies of target server2[0m
+[0.542s] [35m[1mConsolidate compiler generated dependencies of target server3[0m
+[0.554s] [ 15%] Built target client
+[0.568s] [ 38%] Built target server1
+[0.573s] [ 84%] Built target server2
+[0.573s] [ 84%] Built target server3
+[0.578s] [ 92%] [32mBuilding CXX object CMakeFiles/leg1.dir/src/leg1.cpp.o[0m
+[6.067s] [100%] [32m[1mLinking CXX executable leg1[0m
+[6.232s] /usr/bin/ld: CMakeFiles/leg1.dir/src/leg1.cpp.o: in function `legcontrol(std::shared_ptr<core_interfaces::srv::UiMotor_Request_<std::allocator<void> > >, std::shared_ptr<core_interfaces::srv::UiMotor_Response_<std::allocator<void> > >)':
+[6.232s] leg1.cpp:(.text+0x45): undefined reference to `Semaphore::acquire()'
+[6.233s] /usr/bin/ld: leg1.cpp:(.text+0x244b): undefined reference to `Semaphore::release()'
+[6.233s] /usr/bin/ld: CMakeFiles/leg1.dir/src/leg1.cpp.o: in function `__static_initialization_and_destruction_0(int, int)':
+[6.233s] leg1.cpp:(.text+0x38bb): undefined reference to `Semaphore::Semaphore(int)'
+[6.252s] collect2: error: ld returned 1 exit status
+[6.253s] gmake[2]: *** [CMakeFiles/leg1.dir/build.make:167: leg1] Error 1
+[6.254s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/leg1.dir/all] Error 2
+[6.254s] gmake: *** [Makefile:146: all] Error 2
+[6.256s] Invoked command in '/home/user/ros2_ws/build/three_legged_bot' returned '2': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/core_interfaces:/home/user/ros2_ws/install/three_legged_bot:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/three_legged_bot -- -j4 -l4

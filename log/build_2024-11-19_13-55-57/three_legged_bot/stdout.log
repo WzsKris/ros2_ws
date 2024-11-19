@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target server1[0m
+[ 18%] Built target client
+[ 54%] [32mBuilding CXX object CMakeFiles/server1.dir/src/leg1.cpp.o[0m
+[ 81%] Built target server2
+[ 81%] Built target server3

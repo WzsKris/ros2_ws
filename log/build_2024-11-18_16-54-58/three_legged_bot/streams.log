@@ -1,0 +1,35 @@
+[0.012s] Invoking command in '/home/user/ros2_ws/build/three_legged_bot': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/core_interfaces:/home/user/ros2_ws/install/three_legged_bot:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/three_legged_bot -- -j4 -l4
+[0.083s] [35m[1mConsolidate compiler generated dependencies of target server3[0m
+[0.084s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target server2[0m
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target server1[0m
+[0.124s] [ 27%] Built target server3
+[0.125s] [ 45%] Built target client
+[0.130s] [ 54%] [32mBuilding CXX object CMakeFiles/server1.dir/src/leg1.cpp.o[0m
+[0.134s] [ 81%] Built target server2
+[5.901s] [ 90%] [32m[1mLinking CXX executable server1[0m
+[6.091s] [100%] Built target server1
+[6.104s] Invoked command in '/home/user/ros2_ws/build/three_legged_bot' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/core_interfaces:/home/user/ros2_ws/install/three_legged_bot:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/three_legged_bot -- -j4 -l4
+[6.139s] Invoking command in '/home/user/ros2_ws/build/three_legged_bot': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/core_interfaces:/home/user/ros2_ws/install/three_legged_bot:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/three_legged_bot
+[6.147s] -- Install configuration: ""
+[6.147s] -- Execute custom install script
+[6.148s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/lib/three_legged_bot/server1
+[6.148s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/lib/three_legged_bot/server2
+[6.148s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/lib/three_legged_bot/server3
+[6.148s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/lib/three_legged_bot/client
+[6.149s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/ament_index/resource_index/package_run_dependencies/three_legged_bot
+[6.149s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/ament_index/resource_index/parent_prefix_path/three_legged_bot
+[6.149s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/environment/ament_prefix_path.sh
+[6.150s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/environment/ament_prefix_path.dsv
+[6.150s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/environment/path.sh
+[6.150s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/environment/path.dsv
+[6.150s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/local_setup.bash
+[6.151s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/local_setup.sh
+[6.151s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/local_setup.zsh
+[6.151s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/local_setup.dsv
+[6.151s] -- Symlinking: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/package.dsv
+[6.161s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/ament_index/resource_index/packages/three_legged_bot
+[6.161s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/cmake/three_legged_botConfig.cmake
+[6.161s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/cmake/three_legged_botConfig-version.cmake
+[6.162s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/package.xml
+[6.164s] Invoked command in '/home/user/ros2_ws/build/three_legged_bot' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/core_interfaces:/home/user/ros2_ws/install/three_legged_bot:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/three_legged_bot

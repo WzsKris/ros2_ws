@@ -1,0 +1,29 @@
+[0.009s] Invoking command in '/home/user/ros2_ws/build/three_legged_bot': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/core_interfaces:/home/user/ros2_ws/install/three_legged_bot:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/three_legged_bot -- -j4 -l4
+[0.083s] [ 18%] Built target client
+[0.088s] [100%] Built target server2
+[0.088s] [100%] Built target server1
+[0.088s] [100%] Built target server3
+[0.098s] Invoked command in '/home/user/ros2_ws/build/three_legged_bot' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/core_interfaces:/home/user/ros2_ws/install/three_legged_bot:/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_ws/build/three_legged_bot -- -j4 -l4
+[0.128s] Invoking command in '/home/user/ros2_ws/build/three_legged_bot': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/core_interfaces:/home/user/ros2_ws/install/three_legged_bot:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/three_legged_bot
+[0.136s] -- Install configuration: ""
+[0.137s] -- Execute custom install script
+[0.137s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/lib/three_legged_bot/server1
+[0.137s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/lib/three_legged_bot/server2
+[0.137s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/lib/three_legged_bot/server3
+[0.137s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/lib/three_legged_bot/client
+[0.138s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/ament_index/resource_index/package_run_dependencies/three_legged_bot
+[0.138s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/ament_index/resource_index/parent_prefix_path/three_legged_bot
+[0.138s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/environment/ament_prefix_path.sh
+[0.138s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/environment/ament_prefix_path.dsv
+[0.138s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/environment/path.sh
+[0.138s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/environment/path.dsv
+[0.138s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/local_setup.bash
+[0.139s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/local_setup.sh
+[0.139s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/local_setup.zsh
+[0.139s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/local_setup.dsv
+[0.139s] -- Symlinking: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/package.dsv
+[0.148s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/ament_index/resource_index/packages/three_legged_bot
+[0.148s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/cmake/three_legged_botConfig.cmake
+[0.149s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/cmake/three_legged_botConfig-version.cmake
+[0.149s] -- Up-to-date symlink: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/package.xml
+[0.152s] Invoked command in '/home/user/ros2_ws/build/three_legged_bot' returned '0': CMAKE_PREFIX_PATH=/home/user/ros2_ws/install/core_interfaces:/home/user/ros2_ws/install/three_legged_bot:/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_ws/build/three_legged_bot

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/user/ros2_ws/build/three_legged_bot/server1" "/home/user/ros2_ws/build/three_legged_bot/server2" "/home/user/ros2_ws/build/three_legged_bot/server3" "/home/user/ros2_ws/build/three_legged_bot/client" "TARGETS" "server1" "server2" "server3" "client" "DESTINATION" "lib/three_legged_bot")

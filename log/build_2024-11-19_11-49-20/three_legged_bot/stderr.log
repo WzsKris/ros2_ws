@@ -1,0 +1,8 @@
+[01m[K/home/user/ros2_ws/src/three_legged_bot/src/leg1.cpp:20:10:[m[K [01;31m[Kfatal error: [m[Kcore_interfaces/srv/ui_motor.hpp: No such file or directory
+   20 | #include [01;31m[K"core_interfaces/srv/ui_motor.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/leg1.dir/build.make:76: CMakeFiles/leg1.dir/src/leg1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/leg1.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

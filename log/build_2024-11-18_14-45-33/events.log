@@ -1,0 +1,440 @@
+[0.000000] (-) TimerEvent: {}
+[0.000542] (core_interfaces) JobQueued: {'identifier': 'core_interfaces', 'dependencies': OrderedDict()}
+[0.000595] (three_legged_bot) JobQueued: {'identifier': 'three_legged_bot', 'dependencies': OrderedDict([('core_interfaces', '/home/user/ros2_ws/install/core_interfaces')])}
+[0.000620] (core_interfaces) JobStarted: {'identifier': 'core_interfaces'}
+[0.006916] (core_interfaces) JobProgress: {'identifier': 'core_interfaces', 'progress': 'cmake'}
+[0.007094] (core_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ros2_ws/src/core_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/core_interfaces'], 'cwd': '/home/user/ros2_ws/build/core_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ros2_ws/tripodmotor'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1066'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/user-AK10:@/tmp/.ICE-unix/1022,unix/user-AK10:/tmp/.ICE-unix/1022'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b7906c2b_1274_455c_8b02_1da7fc192815'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PL08W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.494'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/ros2_ws/build/core_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.060418] (core_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099806] (-) TimerEvent: {}
+[0.117273] (core_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.123526] (core_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.186904] (core_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.194311] (core_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.194492] (core_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.194876] (core_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.197690] (core_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199869] (-) TimerEvent: {}
+[0.268042] (core_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.275451] (core_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.275690] (core_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.276252] (core_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.278325] (core_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299994] (-) TimerEvent: {}
+[0.400220] (-) TimerEvent: {}
+[0.416158] (core_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.474454] (core_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.496433] (core_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.498804] (core_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500278] (-) TimerEvent: {}
+[0.504329] (core_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.540675] (core_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600407] (-) TimerEvent: {}
+[0.700648] (-) TimerEvent: {}
+[0.796693] (core_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.800744] (-) TimerEvent: {}
+[0.901004] (-) TimerEvent: {}
+[0.967598] (core_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.001108] (-) TimerEvent: {}
+[1.101409] (-) TimerEvent: {}
+[1.183977] (core_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.201503] (-) TimerEvent: {}
+[1.204523] (core_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.205816] (core_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.229732] (core_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.230092] (core_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.230201] (core_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.230274] (core_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.250442] (core_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.281558] (core_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.298425] (core_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.299197] (core_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.301574] (-) TimerEvent: {}
+[1.302181] (core_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.324480] (core_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.326611] (core_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_ws/build/core_interfaces\n'}
+[1.332516] (core_interfaces) CommandEnded: {'returncode': 0}
+[1.333015] (core_interfaces) JobProgress: {'identifier': 'core_interfaces', 'progress': 'build'}
+[1.333654] (core_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/core_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/user/ros2_ws/build/core_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ros2_ws/tripodmotor'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1066'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/user-AK10:@/tmp/.ICE-unix/1022,unix/user-AK10:/tmp/.ICE-unix/1022'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b7906c2b_1274_455c_8b02_1da7fc192815'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PL08W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.494'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/ros2_ws/build/core_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.379630] (core_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.394850] (core_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.401707] (-) TimerEvent: {}
+[1.410902] (core_interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_core_interfaces\n'}
+[1.501818] (-) TimerEvent: {}
+[1.602126] (-) TimerEvent: {}
+[1.702235] (core_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.702418] (-) TimerEvent: {}
+[1.702628] (core_interfaces) StdoutLine: {'line': b'creating core_interfaces.egg-info\n'}
+[1.702917] (core_interfaces) StdoutLine: {'line': b'writing core_interfaces.egg-info/PKG-INFO\n'}
+[1.703237] (core_interfaces) StdoutLine: {'line': b'writing dependency_links to core_interfaces.egg-info/dependency_links.txt\n'}
+[1.703511] (core_interfaces) StdoutLine: {'line': b'writing top-level names to core_interfaces.egg-info/top_level.txt\n'}
+[1.704186] (core_interfaces) StdoutLine: {'line': b"writing manifest file 'core_interfaces.egg-info/SOURCES.txt'\n"}
+[1.706465] (core_interfaces) StdoutLine: {'line': b"reading manifest file 'core_interfaces.egg-info/SOURCES.txt'\n"}
+[1.707213] (core_interfaces) StdoutLine: {'line': b"writing manifest file 'core_interfaces.egg-info/SOURCES.txt'\n"}
+[1.719918] (core_interfaces) StdoutLine: {'line': b'[  6%] Built target core_interfaces__cpp\n'}
+[1.723449] (core_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/core_interfaces__rosidl_generator_c.dir/rosidl_generator_c/core_interfaces/srv/detail/ui_motor__functions.c.o\x1b[0m\n'}
+[1.731918] (core_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.732202] (core_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.742502] (core_interfaces) StdoutLine: {'line': b'[ 16%] Built target ament_cmake_python_build_core_interfaces_egg\n'}
+[1.754233] (core_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.793198] (core_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libcore_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.802567] (-) TimerEvent: {}
+[1.838262] (core_interfaces) StdoutLine: {'line': b'[ 22%] Built target core_interfaces__rosidl_generator_c\n'}
+[1.846612] (core_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.902671] (-) TimerEvent: {}
+[2.002984] (-) TimerEvent: {}
+[2.058787] (core_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/core_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/core_interfaces/srv/detail/ui_motor__type_support.cpp.o\x1b[0m\n'}
+[2.070281] (core_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/core_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/core_interfaces/srv/detail/dds_fastrtps/ui_motor__type_support.cpp.o\x1b[0m\n'}
+[2.070481] (core_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/core_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/core_interfaces/srv/ui_motor__type_support.cpp.o\x1b[0m\n'}
+[2.103085] (-) TimerEvent: {}
+[2.178517] (core_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/core_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/core_interfaces/srv/detail/ui_motor__type_support.c.o\x1b[0m\n'}
+[2.203207] (-) TimerEvent: {}
+[2.220556] (core_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libcore_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.263705] (core_interfaces) StdoutLine: {'line': b'[ 41%] Built target core_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.271681] (core_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.303315] (-) TimerEvent: {}
+[2.403628] (-) TimerEvent: {}
+[2.474249] (core_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libcore_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.503743] (-) TimerEvent: {}
+[2.526462] (core_interfaces) StdoutLine: {'line': b'[ 48%] Built target core_interfaces__rosidl_typesupport_cpp\n'}
+[2.538401] (core_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.594560] (core_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libcore_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.603839] (-) TimerEvent: {}
+[2.686075] (core_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/core_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/core_interfaces/srv/ui_motor__type_support.cpp.o\x1b[0m\n'}
+[2.697742] (core_interfaces) StdoutLine: {'line': b'[ 58%] Built target core_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.703942] (-) TimerEvent: {}
+[2.710674] (core_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libcore_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.718834] (core_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libcore_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.755897] (core_interfaces) StdoutLine: {'line': b'[ 64%] Built target core_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.761573] (core_interfaces) StdoutLine: {'line': b'[ 64%] Built target core_interfaces__rosidl_typesupport_c\n'}
+[2.804056] (-) TimerEvent: {}
+[2.843670] (core_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/core_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/core_interfaces/srv/detail/ui_motor__type_support_c.cpp.o\x1b[0m\n'}
+[2.904202] (-) TimerEvent: {}
+[3.004472] (-) TimerEvent: {}
+[3.104741] (-) TimerEvent: {}
+[3.166562] (core_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcore_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.204857] (-) TimerEvent: {}
+[3.247291] (core_interfaces) StdoutLine: {'line': b'[ 70%] Built target core_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.264868] (core_interfaces) StdoutLine: {'line': b'[ 70%] Built target core_interfaces\n'}
+[3.282496] (core_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.304970] (-) TimerEvent: {}
+[3.405246] (-) TimerEvent: {}
+[3.505483] (-) TimerEvent: {}
+[3.605751] (-) TimerEvent: {}
+[3.620562] (core_interfaces) StdoutLine: {'line': b'[ 74%] Built target core_interfaces__py\n'}
+[3.640663] (core_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/core_interfaces__rosidl_generator_py.dir/rosidl_generator_py/core_interfaces/srv/_ui_motor_s.c.o\x1b[0m\n'}
+[3.705859] (-) TimerEvent: {}
+[3.741809] (core_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/core_interfaces/libcore_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[3.783014] (core_interfaces) StdoutLine: {'line': b'[ 80%] Built target core_interfaces__rosidl_generator_py\n'}
+[3.804677] (core_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/core_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/core_interfaces/_core_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.804879] (core_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/core_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/core_interfaces/_core_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.806356] (-) TimerEvent: {}
+[3.809352] (core_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/core_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/core_interfaces/_core_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.906464] (-) TimerEvent: {}
+[3.914424] (core_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/core_interfaces/core_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.918453] (core_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/core_interfaces/core_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.918656] (core_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/core_interfaces/core_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.951657] (core_interfaces) StdoutLine: {'line': b'[100%] Built target core_interfaces__rosidl_typesupport_c__pyext\n'}
+[3.954443] (core_interfaces) StdoutLine: {'line': b'[100%] Built target core_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[3.955704] (core_interfaces) StdoutLine: {'line': b'[100%] Built target core_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.965447] (core_interfaces) CommandEnded: {'returncode': 0}
+[4.006547] (-) TimerEvent: {}
+[4.012741] (core_interfaces) JobProgress: {'identifier': 'core_interfaces', 'progress': 'install'}
+[4.022509] (core_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/core_interfaces'], 'cwd': '/home/user/ros2_ws/build/core_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ros2_ws/tripodmotor'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1066'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/user-AK10:@/tmp/.ICE-unix/1022,unix/user-AK10:/tmp/.ICE-unix/1022'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b7906c2b_1274_455c_8b02_1da7fc192815'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PL08W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.494'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/ros2_ws/build/core_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.032111] (core_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.033084] (core_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.033650] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/ament_index/resource_index/rosidl_interfaces/core_interfaces\n'}
+[4.044746] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.053275] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__functions.h\n'}
+[4.060894] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__struct.h\n'}
+[4.068131] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__type_support.h\n'}
+[4.075475] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/ui_motor.h\n'}
+[4.082962] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/environment/library_path.sh\n'}
+[4.090398] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/environment/library_path.dsv\n'}
+[4.099396] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.106685] (-) TimerEvent: {}
+[4.108200] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__rosidl_typesupport_fastrtps_c.h\n'}
+[4.116706] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.124582] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__rosidl_typesupport_introspection_c.h\n'}
+[4.133210] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__builder.hpp\n'}
+[4.142993] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__struct.hpp\n'}
+[4.153022] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__traits.hpp\n'}
+[4.160781] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/ui_motor.hpp\n'}
+[4.169186] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.176802] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.185027] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/include/core_interfaces/core_interfaces/srv/detail/ui_motor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.192829] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/environment/pythonpath.sh\n'}
+[4.200791] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/environment/pythonpath.dsv\n'}
+[4.206777] (-) TimerEvent: {}
+[4.209316] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.217931] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.226556] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.235416] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.243619] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/__init__.py\n'}
+[4.251721] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/_core_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[4.259816] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/_core_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.269874] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/_core_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.277534] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/core_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.286882] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/core_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.295258] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/core_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.304496] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/libcore_interfaces__rosidl_generator_py.so\n'}
+[4.306856] (-) TimerEvent: {}
+[4.312897] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/srv/__init__.py\n'}
+[4.321700] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/srv/_ui_motor.py\n'}
+[4.329690] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/srv/_ui_motor_s.c\n'}
+[4.344071] (core_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/core_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.344307] (core_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/core_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.344626] (core_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/core_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.344825] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/srv/UiMotor.idl\n'}
+[4.354323] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/srv/UiMotor.srv\n'}
+[4.362420] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/srv/UiMotor_Request.msg\n'}
+[4.370571] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/srv/UiMotor_Response.msg\n'}
+[4.377948] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/ament_index/resource_index/package_run_dependencies/core_interfaces\n'}
+[4.385868] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/ament_index/resource_index/parent_prefix_path/core_interfaces\n'}
+[4.393527] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/environment/ament_prefix_path.sh\n'}
+[4.401376] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/environment/ament_prefix_path.dsv\n'}
+[4.406961] (-) TimerEvent: {}
+[4.408909] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/environment/path.sh\n'}
+[4.416521] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/environment/path.dsv\n'}
+[4.424227] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/local_setup.bash\n'}
+[4.432323] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/local_setup.sh\n'}
+[4.442857] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/local_setup.zsh\n'}
+[4.453245] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/local_setup.dsv\n'}
+[4.461028] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/package.dsv\n'}
+[4.469083] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/ament_index/resource_index/packages/core_interfaces\n'}
+[4.476871] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.485495] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.494498] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.503246] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.507081] (-) TimerEvent: {}
+[4.512069] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.521448] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.529745] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.539434] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfacesConfig.cmake\n'}
+[4.547622] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfacesConfig-version.cmake\n'}
+[4.556250] (core_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/package.xml\n'}
+[4.563536] (core_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_generator_c.so\n'}
+[4.563830] (core_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_generator_c.so" to ""\n'}
+[4.563944] (core_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[4.564305] (core_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.564563] (core_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.564862] (core_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.565255] (core_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_c.so\n'}
+[4.565501] (core_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[4.565680] (core_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.566067] (core_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.567203] (core_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[4.567296] (core_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.567366] (core_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_cpp.so\n'}
+[4.567429] (core_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[4.598117] (core_interfaces) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces'...\n"}
+[4.598303] (core_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/__init__.py'...\n"}
+[4.598375] (core_interfaces) StdoutLine: {'line': b"Listing '/home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/srv'...\n"}
+[4.598437] (core_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/srv/__init__.py'...\n"}
+[4.598495] (core_interfaces) StdoutLine: {'line': b"Compiling '/home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages/core_interfaces/srv/_ui_motor.py'...\n"}
+[4.602681] (core_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_generator_py.so\n'}
+[4.603016] (core_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_ws/install/core_interfaces/lib/libcore_interfaces__rosidl_generator_py.so" to ""\n'}
+[4.603218] (core_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_generator_cExport.cmake\n'}
+[4.603328] (core_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.603451] (core_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.603567] (core_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.603653] (core_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.603858] (core_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.604280] (core_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.604527] (core_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.604644] (core_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.604730] (core_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.604807] (core_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.604907] (core_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.605002] (core_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.605097] (core_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.605196] (core_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/core_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.605290] (core_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_generator_pyExport.cmake\n'}
+[4.605415] (core_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake/export_core_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.607235] (-) TimerEvent: {}
+[4.607744] (core_interfaces) CommandEnded: {'returncode': 0}
+[4.691504] (core_interfaces) JobEnded: {'identifier': 'core_interfaces', 'rc': 0}
+[4.692644] (three_legged_bot) JobStarted: {'identifier': 'three_legged_bot'}
+[4.698691] (three_legged_bot) JobProgress: {'identifier': 'three_legged_bot', 'progress': 'cmake'}
+[4.698877] (three_legged_bot) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ros2_ws/src/three_legged_bot', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/user/ros2_ws/install/three_legged_bot'], 'cwd': '/home/user/ros2_ws/build/three_legged_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/user/ros2_ws/install/core_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ros2_ws/tripodmotor'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1066'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/user-AK10:@/tmp/.ICE-unix/1022,unix/user-AK10:/tmp/.ICE-unix/1022'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b7906c2b_1274_455c_8b02_1da7fc192815'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PL08W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.494'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/core_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/ros2_ws/build/three_legged_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/core_interfaces:/opt/ros/humble')]), 'shell': False}
+[4.707331] (-) TimerEvent: {}
+[4.752012] (three_legged_bot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.801692] (three_legged_bot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.807418] (-) TimerEvent: {}
+[4.807747] (three_legged_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.869742] (three_legged_bot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.876788] (three_legged_bot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.877019] (three_legged_bot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.877492] (three_legged_bot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.880299] (three_legged_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.907530] (-) TimerEvent: {}
+[4.954550] (three_legged_bot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.962801] (three_legged_bot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.963038] (three_legged_bot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.963610] (three_legged_bot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.966762] (three_legged_bot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.007651] (-) TimerEvent: {}
+[5.107936] (-) TimerEvent: {}
+[5.108760] (three_legged_bot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.167707] (three_legged_bot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.189610] (three_legged_bot) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[5.208050] (-) TimerEvent: {}
+[5.226900] (three_legged_bot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[5.231328] (three_legged_bot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.239392] (three_legged_bot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.250274] (three_legged_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.264952] (three_legged_bot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.303892] (three_legged_bot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.306123] (three_legged_bot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.308166] (-) TimerEvent: {}
+[5.378850] (three_legged_bot) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.403772] (three_legged_bot) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.408243] (-) TimerEvent: {}
+[5.440949] (three_legged_bot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.448130] (three_legged_bot) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.508375] (-) TimerEvent: {}
+[5.513522] (three_legged_bot) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.513879] (three_legged_bot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.582941] (three_legged_bot) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.584005] (three_legged_bot) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.608488] (-) TimerEvent: {}
+[5.629478] (three_legged_bot) StdoutLine: {'line': b'-- Found core_interfaces: 0.0.0 (/home/user/ros2_ws/install/core_interfaces/share/core_interfaces/cmake)\n'}
+[5.641838] (three_legged_bot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.708602] (-) TimerEvent: {}
+[5.715373] (three_legged_bot) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.715615] (three_legged_bot) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[5.715697] (three_legged_bot) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.716300] (three_legged_bot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.717440] (three_legged_bot) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.717548] (three_legged_bot) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.717867] (three_legged_bot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.719062] (three_legged_bot) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.733088] (three_legged_bot) StdoutLine: {'line': b'-- Generating done\n'}
+[5.734744] (three_legged_bot) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_ws/build/three_legged_bot\n'}
+[5.743046] (three_legged_bot) CommandEnded: {'returncode': 0}
+[5.743550] (three_legged_bot) JobProgress: {'identifier': 'three_legged_bot', 'progress': 'build'}
+[5.743767] (three_legged_bot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/three_legged_bot', '--', '-j4', '-l4'], 'cwd': '/home/user/ros2_ws/build/three_legged_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/user/ros2_ws/install/core_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ros2_ws/tripodmotor'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1066'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/user-AK10:@/tmp/.ICE-unix/1022,unix/user-AK10:/tmp/.ICE-unix/1022'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b7906c2b_1274_455c_8b02_1da7fc192815'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PL08W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.494'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/core_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/ros2_ws/build/three_legged_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/core_interfaces:/opt/ros/humble')]), 'shell': False}
+[5.808752] (-) TimerEvent: {}
+[5.810602] (three_legged_bot) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/server2.dir/src/leg2.cpp.o\x1b[0m\n'}
+[5.810935] (three_legged_bot) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/userinterface_client.cpp.o\x1b[0m\n'}
+[5.811131] (three_legged_bot) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/server1.dir/src/leg1.cpp.o\x1b[0m\n'}
+[5.811342] (three_legged_bot) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/server3.dir/src/leg3.cpp.o\x1b[0m\n'}
+[5.911208] (-) TimerEvent: {}
+[6.011598] (-) TimerEvent: {}
+[6.111914] (-) TimerEvent: {}
+[6.212216] (-) TimerEvent: {}
+[6.312630] (-) TimerEvent: {}
+[6.415320] (-) TimerEvent: {}
+[6.515644] (-) TimerEvent: {}
+[6.615992] (-) TimerEvent: {}
+[6.716341] (-) TimerEvent: {}
+[6.816687] (-) TimerEvent: {}
+[6.917330] (-) TimerEvent: {}
+[7.017668] (-) TimerEvent: {}
+[7.119213] (-) TimerEvent: {}
+[7.219564] (-) TimerEvent: {}
+[7.319935] (-) TimerEvent: {}
+[7.420267] (-) TimerEvent: {}
+[7.520607] (-) TimerEvent: {}
+[7.620951] (-) TimerEvent: {}
+[7.721299] (-) TimerEvent: {}
+[7.821631] (-) TimerEvent: {}
+[7.923224] (-) TimerEvent: {}
+[8.023584] (-) TimerEvent: {}
+[8.123929] (-) TimerEvent: {}
+[8.224285] (-) TimerEvent: {}
+[8.327221] (-) TimerEvent: {}
+[8.427564] (-) TimerEvent: {}
+[8.527888] (-) TimerEvent: {}
+[8.628217] (-) TimerEvent: {}
+[8.728556] (-) TimerEvent: {}
+[8.828909] (-) TimerEvent: {}
+[8.929227] (-) TimerEvent: {}
+[9.029569] (-) TimerEvent: {}
+[9.129924] (-) TimerEvent: {}
+[9.232221] (-) TimerEvent: {}
+[9.332577] (-) TimerEvent: {}
+[9.432914] (-) TimerEvent: {}
+[9.533223] (-) TimerEvent: {}
+[9.633559] (-) TimerEvent: {}
+[9.733897] (-) TimerEvent: {}
+[9.834225] (-) TimerEvent: {}
+[9.937215] (-) TimerEvent: {}
+[10.037554] (-) TimerEvent: {}
+[10.137897] (-) TimerEvent: {}
+[10.238224] (-) TimerEvent: {}
+[10.338556] (-) TimerEvent: {}
+[10.438897] (-) TimerEvent: {}
+[10.539212] (-) TimerEvent: {}
+[10.639520] (-) TimerEvent: {}
+[10.725452] (three_legged_bot) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[10.739850] (-) TimerEvent: {}
+[10.841220] (-) TimerEvent: {}
+[10.941287] (three_legged_bot) StdoutLine: {'line': b'[ 45%] Built target client\n'}
+[10.941507] (-) TimerEvent: {}
+[10.951523] (three_legged_bot) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/server3.dir/src/semaphore.cpp.o\x1b[0m\n'}
+[11.044933] (-) TimerEvent: {}
+[11.145290] (-) TimerEvent: {}
+[11.246060] (-) TimerEvent: {}
+[11.349222] (-) TimerEvent: {}
+[11.449781] (-) TimerEvent: {}
+[11.460283] (three_legged_bot) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/server1.dir/src/semaphore.cpp.o\x1b[0m\n'}
+[11.549891] (-) TimerEvent: {}
+[11.650228] (-) TimerEvent: {}
+[11.750621] (-) TimerEvent: {}
+[11.850997] (-) TimerEvent: {}
+[11.910304] (three_legged_bot) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/server2.dir/src/semaphore.cpp.o\x1b[0m\n'}
+[11.951115] (-) TimerEvent: {}
+[12.051449] (-) TimerEvent: {}
+[12.156220] (-) TimerEvent: {}
+[12.256569] (-) TimerEvent: {}
+[12.356913] (-) TimerEvent: {}
+[12.457215] (-) TimerEvent: {}
+[12.557536] (-) TimerEvent: {}
+[12.659210] (-) TimerEvent: {}
+[12.759526] (-) TimerEvent: {}
+[12.859832] (-) TimerEvent: {}
+[12.960136] (-) TimerEvent: {}
+[13.060443] (-) TimerEvent: {}
+[13.161193] (-) TimerEvent: {}
+[13.263223] (-) TimerEvent: {}
+[13.268791] (three_legged_bot) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable server1\x1b[0m\n'}
+[13.363381] (-) TimerEvent: {}
+[13.463761] (-) TimerEvent: {}
+[13.501889] (three_legged_bot) StdoutLine: {'line': b'[ 81%] Built target server1\n'}
+[13.551766] (three_legged_bot) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable server2\x1b[0m\n'}
+[13.563913] (-) TimerEvent: {}
+[13.630203] (three_legged_bot) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable server3\x1b[0m\n'}
+[13.664055] (-) TimerEvent: {}
+[13.759467] (three_legged_bot) StdoutLine: {'line': b'[100%] Built target server2\n'}
+[13.764151] (-) TimerEvent: {}
+[13.831442] (three_legged_bot) StdoutLine: {'line': b'[100%] Built target server3\n'}
+[13.840720] (three_legged_bot) CommandEnded: {'returncode': 0}
+[13.864237] (-) TimerEvent: {}
+[13.869645] (three_legged_bot) JobProgress: {'identifier': 'three_legged_bot', 'progress': 'install'}
+[13.869915] (three_legged_bot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/three_legged_bot'], 'cwd': '/home/user/ros2_ws/build/three_legged_bot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/user/ros2_ws/install/core_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ros2_ws/tripodmotor'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1066'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/user/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/user-AK10:@/tmp/.ICE-unix/1022,unix/user-AK10:/tmp/.ICE-unix/1022'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b7906c2b_1274_455c_8b02_1da7fc192815'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.PL08W2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.494'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/core_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/ros2_ws/build/three_legged_bot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/user/ros2_ws/install/core_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/core_interfaces:/opt/ros/humble')]), 'shell': False}
+[13.877911] (three_legged_bot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.878545] (three_legged_bot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[13.879012] (three_legged_bot) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/three_legged_bot/lib/three_legged_bot/server1\n'}
+[13.891199] (three_legged_bot) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/three_legged_bot/lib/three_legged_bot/server2\n'}
+[13.900579] (three_legged_bot) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/three_legged_bot/lib/three_legged_bot/server3\n'}
+[13.907886] (three_legged_bot) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/three_legged_bot/lib/three_legged_bot/client\n'}
+[13.915584] (three_legged_bot) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/three_legged_bot/share/ament_index/resource_index/package_run_dependencies/three_legged_bot\n'}
+[13.923073] (three_legged_bot) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/three_legged_bot/share/ament_index/resource_index/parent_prefix_path/three_legged_bot\n'}
+[13.930659] (three_legged_bot) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/environment/ament_prefix_path.sh\n'}
+[13.937985] (three_legged_bot) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/environment/ament_prefix_path.dsv\n'}
+[13.945424] (three_legged_bot) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/environment/path.sh\n'}
+[13.952935] (three_legged_bot) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/environment/path.dsv\n'}
+[13.960345] (three_legged_bot) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/local_setup.bash\n'}
+[13.964370] (-) TimerEvent: {}
+[13.967881] (three_legged_bot) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/local_setup.sh\n'}
+[13.975401] (three_legged_bot) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/local_setup.zsh\n'}
+[13.982752] (three_legged_bot) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/local_setup.dsv\n'}
+[13.990264] (three_legged_bot) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/package.dsv\n'}
+[13.998822] (three_legged_bot) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/three_legged_bot/share/ament_index/resource_index/packages/three_legged_bot\n'}
+[14.006359] (three_legged_bot) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/cmake/three_legged_botConfig.cmake\n'}
+[14.013880] (three_legged_bot) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/cmake/three_legged_botConfig-version.cmake\n'}
+[14.021447] (three_legged_bot) StdoutLine: {'line': b'-- Symlinking: /home/user/ros2_ws/install/three_legged_bot/share/three_legged_bot/package.xml\n'}
+[14.030519] (three_legged_bot) CommandEnded: {'returncode': 0}
+[14.064478] (-) TimerEvent: {}
+[14.083948] (three_legged_bot) JobEnded: {'identifier': 'three_legged_bot', 'rc': 0}
+[14.084526] (-) EventReactorShutdown: {}

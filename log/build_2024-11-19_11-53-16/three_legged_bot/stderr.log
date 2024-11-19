@@ -1,0 +1,9 @@
+/usr/bin/ld: CMakeFiles/leg1.dir/src/leg1.cpp.o: in function `legcontrol(std::shared_ptr<core_interfaces::srv::UiMotor_Request_<std::allocator<void> > >, std::shared_ptr<core_interfaces::srv::UiMotor_Response_<std::allocator<void> > >)':
+leg1.cpp:(.text+0x45): undefined reference to `Semaphore::acquire()'
+/usr/bin/ld: leg1.cpp:(.text+0x244b): undefined reference to `Semaphore::release()'
+/usr/bin/ld: CMakeFiles/leg1.dir/src/leg1.cpp.o: in function `__static_initialization_and_destruction_0(int, int)':
+leg1.cpp:(.text+0x38bb): undefined reference to `Semaphore::Semaphore(int)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/leg1.dir/build.make:167: leg1] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/leg1.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

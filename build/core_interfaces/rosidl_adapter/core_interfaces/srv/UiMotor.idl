@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from core_interfaces/srv/UiMotor.srv
+// generated code does not contain a copyright notice
+
+
+module core_interfaces {
+  module srv {
+    struct UiMotor_Request {
+      uint8 leg1;
+
+      uint8 leg2;
+
+      uint8 leg3;
+    };
+    struct UiMotor_Response {
+      uint8 beat;
+    };
+  };
+};
